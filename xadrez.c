@@ -24,5 +24,18 @@ do
     r++;
 } while (r <=8);
 
+printf("\nMovimento do Cavalo\n");
 
-return 0;}
+int movimentoCavalo = 1;
+
+for (int m =1; m <= movimentoCavalo; m++){
+    int passosBaixos = 1;
+    while (passosBaixos <=2)
+    {
+        printf("Baixo\n");
+        passosBaixos++;
+    }
+    printf("Esquerda\n");
+}
+return 0;
+}
